@@ -74,10 +74,15 @@ a{
 /* •••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••• */
 /************** CONTACTS MAIN STYLES START **************/
 /************** CONTACTS SECTION STYLES START **************/
-.contacts-main {
+.contacts {
     padding-top: 51px;
     padding-bottom: 120px;
     background-color: var(--header-bg-color);
+    background-image: url('../images/contacts_bg_1.svg'),
+    url('../images/contacts_bg_2.svg');
+    background-repeat: no-repeat;
+    background-position: calc(50% - 757px) calc(50% - 133px),
+    calc(50% + 760px) calc(50% + 180px);
 }
 
 .contacs__wrapper {
